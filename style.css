@@ -1,0 +1,31 @@
+body {
+	background-image: url(H_00676_005.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.test {
+	color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.courseName {
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 5px 5px gray;
+}
+
+.studentName {
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 5px 5px gray;
+	border-radius: 15px;
+}
+
+.project {
+	background: linear-gradient(right, red, black);
+	font-family: Arial, Helvetica, sans-serif;
+}
