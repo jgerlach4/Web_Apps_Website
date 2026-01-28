@@ -12,7 +12,7 @@ body {
 }
 
 .test {
-	color: whitesmoke;
+	color: lightblue;
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
@@ -20,36 +20,26 @@ body {
 
 .courseName {
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20pt;
 	text-shadow: 5px 5px gray;
 	padding: 10px;
 }
 
 .studentName {
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20pt;
 	text-shadow: 5px 5px gray;
 	border-radius: 15px;
 	padding: 10px;
 }
 
 .project {
-	background: linear-gradient(to right, rgb(141, 24, 24), black);
+	background: linear-gradient(to right, rgb(34, 32, 180), rgb(59, 2, 124));
 	width: 5%;
+	margin-left: 30px;
 	text-align: center;
 	border-radius: 10px;
 	padding: 20px;
 	font-family: Arial, Helvetica, sans-serif;
-}
-
-@keyframes scale-up-hor-center {
-	0% {
-		transform: scaleX(0.4);
-	}
-
-	100% {
-		transform: scaleX(1);
-	}
-}
-
-.scale-up-hor-center-normal {
-	animation: scale-up-hor-center-normal 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0s 1 normal both;
+	scale: 1.3;
 }
